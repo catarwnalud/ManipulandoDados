@@ -15,11 +15,11 @@ As bases de dados de SRAG disponibilizadas neste portal passam por tratamento qu
 Para mais informações, acessar: 
 https://opendatasus.saude.gov.br/dataset/srag-2020
 
-## Os Arquivos de Dados
+## O Arquivo de Dados
 
-Os dados de todos os arquivos somam aproximadamente 700MB. Foi preciso fazer uma engenharia reversa a partir deste dados, propondo uma estrutura no banco de dados PostgreSQL para armazená-los.
+Os dados do arquivo somam aproximadamente 700MB. Foi preciso fazer uma engenharia reversa a partir destes dados, propondo uma estrutura no banco de dados PostgreSQL para armazená-los.
 
-Depois de analisar os dados que estes arquivos contém, criando a estrutura do banco de dados, como importar os dados de 1.199.105 pessoas neste banco de dados? Não é viável fazer isso manualmente, por isso utilizamos a linguaguem de programção python para fazer esse trabalho.
+Depois de analisar os dados criando a estrutura do banco de dados, como importar os dados de 1.199.105 pessoas neste banco de dados? Não é viável fazer isso manualmente, por isso utilizamos a linguaguem de programção python para fazer esse trabalho.
 
 Portanto, os principais desafios deste trabalho foram: 
 
@@ -30,6 +30,6 @@ O intuito do trabalho foi aprender a manipular um arquivo CSV com a linguagem es
 
 Foi utulizado o banco de dados PostgreSQL 9.1.
 
-Temos um dump do banco de dados contendo DADOS e ESTRUTURA (arquivo texto .sql) chamado README.TXT e um código da aplicação/script/programa construído para importar os dados.
+Temos um dump do banco de dados contendo DADOS e ESTRUTURA (dump.sql), um código da aplicação/script/programa construído para importar os dados (code.py) e o arquivo que contém os dados manipulados (INFLUD20-01-05-2023.csv).
 
 
