@@ -30,6 +30,6 @@ O intuito do trabalho foi aprender a manipular um arquivo CSV com a linguagem es
 
 Foi utulizado o banco de dados PostgreSQL 9.1.
 
-Temos um dump do banco de dados contendo DADOS e ESTRUTURA (dump.sql), um código da aplicação/script/programa construído para importar os dados (code.py) e o arquivo que contém os dados manipulados (INFLUD20-01-05-2023.csv).
+Temos um dump do banco de dados contendo DADOS e ESTRUTURA (dump.sql), caso se interesse em dar uma olhada é so me solicitar no email catarinaludmilanf@gmail.com, um código da aplicação/script/programa construído para importar os dados (code.py) que está no repositório e o arquivo que contém os dados manipulados (INFLUD20-01-05-2023.csv) que é possível encontrar no link citado acima.
 
 
